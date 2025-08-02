@@ -10,6 +10,11 @@
     mask-repeat: no-repeat;
     mask-position: center;
     background-color: currentColor;
+    transition: color 0.3s ease-in-out;
+  }
+
+  &:hover {
+    color: var(--c-red);
   }
 }
 
