@@ -1,0 +1,34 @@
+.header {
+  background-color: #212223;
+  color: var(--c-white);
+}
+
+.header-top {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--c-white);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-contacts {
+    display: flex;
+    gap: 1.5rem;
+  }
+}
+.header-bottom {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+  .menu {
+    .menu-list {
+      text-transform: uppercase;
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+}
