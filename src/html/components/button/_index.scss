@@ -1,0 +1,12 @@
+.btn {
+  text-transform: uppercase;
+  padding: 14px 20px;
+  background-color: transparent;
+  color: var(--c-gray);
+  border: 2px solid var(--c-gray);
+}
+.btn-red {
+  background-color: var(--c-red);
+  color: var(--c-white);
+  border: transparent;
+}

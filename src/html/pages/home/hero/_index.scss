@@ -1,0 +1,18 @@
+.hero {
+  background-image: url("/src/assets/images/home/hero-bg.webp");
+  background-size: cover;
+  color: var(--c-white);
+  height: 806px;
+  padding: 200px 0;
+}
+
+.hero-title {
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  max-width: 300px;
+}
