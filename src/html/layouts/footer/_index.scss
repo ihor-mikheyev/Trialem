@@ -1,0 +1,67 @@
+.footer-content {
+  background-image: url("/src/assets/images/footer-bg.webp");
+  background-repeat: no-repeat;
+  color: var(--c-white);
+  font-weight: 300;
+  padding: 40px 0 10px;
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+.footer-grid__logo,
+.footer-grid__insta,
+.footer-grid__contacts,
+.footer-grid__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h3.title {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.footer-grid__insta--images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-accent {
+  color: var(--c-red);
+}
+
+.form-input__block {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid var(--c-white);
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+
+  .form-input__area {
+    color: var(--c-white);
+    outline: 0;
+  }
+
+  .submit {
+    width: fit-content;
+  }
+}
+
+.icon-email {
+  mask-image: url("/src/assets/icons/icon-email.svg");
+}
+
+.copyrights {
+  font-size: 12px;
+  font-weight: 300;
+}
