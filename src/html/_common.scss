@@ -18,6 +18,11 @@
   }
 }
 
+.text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
 .icon-location {
   &::before {
     mask-image: var(--icon-location);
