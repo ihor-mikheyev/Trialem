@@ -1,0 +1,65 @@
+#benefits {
+  position: relative;
+  background-image: url("/src/assets/images/home/why-bg.webp");
+  background-repeat: no-repeat;
+  left: 100px;
+  z-index: -1;
+}
+
+.benefits-content {
+  padding: 6.25rem 0;
+  position: relative;
+  left: -100px;
+  display: flex;
+  gap: 3.5rem;
+}
+.benefits-content__image {
+}
+.benefits-content__description {
+}
+.benefits-content__description-title {
+  margin-bottom: 3.5rem;
+  color: var(--c-whitegray);
+}
+
+.benefits-content__description-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1.625rem;
+}
+.benefits-content__description-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .icon {
+    mask-repeat: no-repeat;
+    mask-size: contain;
+
+    &::before {
+      width: 50px;
+      height: 40px;
+      color: var(--c-white);
+    }
+  }
+  .icon-percent {
+    mask-image: url("/src/assets/icons/icon-percent.svg");
+  }
+  .icon-bicycle {
+    mask-image: url("/src/assets/icons/icon-bicycle.svg");
+  }
+  .icon-commenting {
+    mask-image: url("/src/assets/icons/icon-commenting.svg");
+  }
+  .icon-location {
+    mask-image: url("/src/assets/icons/icon-location.svg");
+  }
+}
+
+.benefits-content__description-subtitle,
+.benefits-content__description-text {
+  color: var(--c-white);
+  p {
+    font-size: 12px;
+  }
+}
