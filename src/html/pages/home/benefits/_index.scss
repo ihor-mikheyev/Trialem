@@ -13,10 +13,7 @@
   display: flex;
   gap: 3.5rem;
 }
-.benefits-content__image {
-}
-.benefits-content__description {
-}
+
 .benefits-content__description-title {
   margin-bottom: 3.5rem;
   color: var(--c-whitegray);
@@ -33,6 +30,7 @@
   gap: 12px;
 
   .icon {
+    mask-position: left;
     mask-repeat: no-repeat;
     mask-size: contain;
 
